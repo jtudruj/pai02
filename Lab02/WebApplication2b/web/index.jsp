@@ -58,6 +58,7 @@
 
         Miesieczna rata splaty: <span style="background-color: yellow"><%= calculationResul %></span>
     </div>
+        <a href="<%= response.encodeURL(request.getContextPath() + "/test.html") %>">testowy odnosnik</a>
 </div>
         
         <div>
